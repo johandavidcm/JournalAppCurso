@@ -34,7 +34,7 @@ export const NoteScreen = () => {
     }, [formValues, dispatch]);
 
     return (
-        <div className="notes__main-content">
+        <div className="notes__main-content animate__animated animate__fadeInRight">
             <NotesAppBar/>
             <div className="notes__content">
                 <input

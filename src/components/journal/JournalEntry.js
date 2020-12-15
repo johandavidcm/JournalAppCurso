@@ -19,7 +19,7 @@ export const JournalEntry = ({ id, date, title, body, url }) => {
     return (
         <div 
             onClick={ handleEntryClick }
-            className="journal__entry pointer"
+            className="journal__entry pointer animate__animated animate__fadeInDown animate__faster"
         >
             {
                 url &&
